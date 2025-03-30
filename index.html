@@ -10,22 +10,18 @@
             background: url('https://source.unsplash.com/1600x900/?new-moon,stars,fairy-tale') no-repeat center center/cover;
             color: white;
             padding: 20px;
-            overflow: hidden;
         }
         .container {
             background: rgba(0, 0, 0, 0.7);
             padding: 20px;
             border-radius: 10px;
             display: inline-block;
-            position: relative;
-            animation: fadeIn 2s ease-in-out;
         }
         img {
             width: 100%;
             max-width: 500px;
             border-radius: 10px;
             margin-top: 20px;
-            animation: glow 3s infinite alternate;
         }
         button {
             background: gold;
@@ -35,39 +31,19 @@
             cursor: pointer;
             margin-top: 10px;
         }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes glow {
-            from { box-shadow: 0 0 5px gold; }
-            to { box-shadow: 0 0 20px gold; }
-        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>🌙 Ramadan Mubarak! 🌙</h1>
-        <p>May this Ramadan bring peace, happiness, and countless blessings to you and your loved ones. May Allah accept from you and I, our righteous deeds. Ameen.</p>
+        <p>A beautiful Ramadan greeting card featuring a new moon, twinkling stars, and a serene night sky. The design has a fairy-tale-like ambiance with golden Arabic calligraphy saying 'Ramadan Mubarak'. The background includes a silhouette of a peaceful mosque with glowing lanterns. The color scheme is a blend of deep blues, purples, and gold, evoking a warm and festive atmosphere.</p>
         <img src="/mnt/data/A_beautiful_Ramadan_greeting_card_featuring_a_new_.png" alt="Ramadan Greeting Card">
-        <audio controls>
-            <source src="english_greeting.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
         <hr>
         <h1>🌙 Ramadan Moubarak ! 🌙</h1>
-        <p>Que ce Ramadan vous apporte paix, bonheur et d'innombrables bénédictions. Qu'Allah accepte de vous et de moi nos bonnes actions. Amine.</p>
-        <audio controls>
-            <source src="french_greeting.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
+        <p>Une belle carte de vœux de Ramadan avec un croissant de lune, des étoiles scintillantes et un ciel nocturne serein. Le design a une ambiance féerique avec une calligraphie arabe dorée disant 'Ramadan Mubarak'. L'arrière-plan comprend la silhouette d'une mosquée paisible avec des lanternes lumineuses. La palette de couleurs est un mélange de bleus profonds, de violets et d'or, créant une atmosphère chaleureuse et festive.</p>
         <hr>
         <h1>🌙 رمضان مبارك! 🌙</h1>
-        <p>نسأل الله أن يجلب لكم هذا الشهر الفضيل السلام والسعادة والبركات. تقبل الله مني ومنكم صالح الأعمال. آمين.</p>
-        <audio controls>
-            <source src="arabic_greeting.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
+        <p>بطاقة تهنئة رمضانية جميلة تتضمن هلال جديد ونجوم متلألئة وسماء ليلية هادئة. التصميم له جو خيالي مع خط عربي ذهبي مكتوب عليه 'رمضان مبارك'. الخلفية تحتوي على silhouette لمسجد هادئ مع فوانيس مضيئة. نظام الألوان هو مزيج من الأزرق العميق، البنفسجي، والذهب، مما يخلق جوًا دافئًا واحتفاليًا.</p>
         <button onclick="sharePage()">Share This Wish</button>
     </div>
     <script>
