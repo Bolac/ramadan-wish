@@ -1,1 +1,58 @@
-
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan Mubarak</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: url('https://source.unsplash.com/1600x900/?new-moon,stars,fairy-tale') no-repeat center center/cover;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        button {
+            background: gold;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌙 Ramadan Mubarak! 🌙</h1>
+        <p>May this Ramadan bring peace, happiness, and countless blessings to you and your loved ones. May Allah accept from you and I, our righteous deeds. Ameen.</p>
+        <img src="/mnt/data/A_beautiful_Ramadan_greeting_card_featuring_a_new_.png" alt="Ramadan Greeting Card">
+        <hr>
+        <h1>🌙 Ramadan Moubarak ! 🌙</h1>
+        <p>Que ce Ramadan vous apporte paix, bonheur et d'innombrables bénédictions. Qu'Allah accepte de vous et de moi nos bonnes actions. Amine.</p>
+        <hr>
+        <h1>🌙 رمضان مبارك! 🌙</h1>
+        <p>نسأل الله أن يجلب لكم هذا الشهر الفضيل السلام والسعادة والبركات. تقبل الله مني ومنكم صالح الأعمال. آمين.</p>
+        <button onclick="sharePage()">Share This Wish</button>
+    </div>
+    <script>
+        function sharePage() {
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(() => {
+                alert('Link copied! Share it with your friends.');
+            });
+        }
+    </script>
+</body>
+</html>
